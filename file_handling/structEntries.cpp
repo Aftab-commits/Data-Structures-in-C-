@@ -45,8 +45,10 @@ void menu()
             {
                 cout << "Data written";
             }
-            else
+            else{
                 sampleData();
+                
+            }
             break;
         case 2:
             readData();
