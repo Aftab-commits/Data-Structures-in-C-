@@ -5,6 +5,8 @@
 #include <iostream>
 using namespace std;
 
+
+int product(int value,int power);
 int main(){
     int start;
     int stop;
@@ -25,7 +27,4 @@ int main(){
     }
 
     cout<<"The summation is: "<<sum<<endl;
-
-
-    return 0;
 }
